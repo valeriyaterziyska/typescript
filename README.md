@@ -1,0 +1,2 @@
+# typescript
+Softuni Course TypeScript
