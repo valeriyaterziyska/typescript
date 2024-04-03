@@ -10,7 +10,7 @@ const mathFunc = {
 function math(a: number, b: number, symbol: string) {
 
 
-    return mathFunc[symbol](a, b);
+    return ;
 }
 
 console.log(math(5, 6, '+'));
