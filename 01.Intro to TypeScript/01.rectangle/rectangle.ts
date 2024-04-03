@@ -1,8 +1,5 @@
-var a: number = 5;
-var b: number = 7;
-
-function calc(a,b) {
+function calc(a:number ,b:number) {
     return a * b;
 }
 
-console.log(calc(a, b));
+console.log(calc(5, 7));
