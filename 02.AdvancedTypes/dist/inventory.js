@@ -1,8 +1,3 @@
-// interface Hero {
-//     Hero: string,
-//     level: string,
-//     items: string,
-// }
 const heroesArr = [];
 function heroes(input) {
     input.forEach((hero) => {
@@ -10,7 +5,7 @@ function heroes(input) {
         let currentObj = { "Hero": name, "level": level, "items": items };
         heroesArr.push(currentObj);
     });
-    let sortedObj = heroesArr.sort((a, b) => a.level - b.level);
+    heroesArr.sort((a, b) => a.level - b.level);
     console.log(heroesArr);
 }
 heroes([
