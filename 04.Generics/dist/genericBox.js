@@ -12,3 +12,4 @@ let box3 = new Box('Hello');
 console.log(box1.toString());
 console.log(box2.toString());
 console.log(box3.toString());
+//# sourceMappingURL=genericBox.js.map
